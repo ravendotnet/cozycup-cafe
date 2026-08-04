@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #f8f2e0;
     color: #4c3c32;
 }
@@ -42,7 +42,9 @@ nav ul {
 
 nav a {
     text-decoration: none;
+    font-size: 20px;
     color: #4c3c32;
+
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -54,19 +56,22 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapers.com%2Fimages%2Fhd%2Fcozy-autumn-leaves-and-scarf-1jepr464e7apqjd1.jpg&f=1&nofb=1&ipt=db97808446f8fa4647cfaf2ad0942899757e18c6fc9eed59ea5dac2c4a6e8ec3');
     background-size: cover;
-    color: #7e685b;
+    color: #f8f8f8;
+
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 20px;
+    text-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
     font-size: 18px;
     margin-bottom: 40px;
+    text-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
 
 .cta-button {
