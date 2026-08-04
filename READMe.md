@@ -24,7 +24,7 @@ and would later merge them into main branch once the changes are finalized.
 BS - Computer Science 3 - Application Development
 
 Plural, Keziah Zoe - GitHub: @ravendotnet
-<img src="readme-img/plural.png" alt="Plural" width="150">
+<img src="readme-img/plural.jpg" alt="Plural" width="150">
 
 Balofiños, Jane Pauline - GitHub @janepaulineb
 <img src="readme-img/" alt="balofinos" width="150">
