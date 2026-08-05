@@ -7,7 +7,7 @@ We started on creating separate branches for each member of our pair to organize
 and would later merge them into main branch once the changes are finalized.
 
 ## Features
-- Changed the project name from CozyCup Cafe to "" in the hero-section
+- Changed the project name from CozyCup Cafe to "Deja Brew" in the hero-section
 - Changed hero-section's short description
 - Added background image in the hero-section and adjusted css styles
 - Added a gallery type with small css interaction for menu-section
@@ -16,15 +16,35 @@ and would later merge them into main branch once the changes are finalized.
 - Added slight changes in website proportions, sizing, and etc.
 
 ## Screen Captures
-<img src="readme-img/hero-section-bg.png" alt="Hero Section" width="150">
-<img src="readme-img/menu-section-gallery.png" alt="Menu Section" width="150">
+<img src="readme-img/hero-section.png" alt="Hero Section">
+<img src="readme-img/menu-gallery.png" alt="Menu Section">
+<img src="readme-img/footer.png" alt="Footer Section">
 
 
 ## About Authors
 BS - Computer Science 3 - Application Development
 
-Plural, Keziah Zoe - GitHub: @ravendotnet
-<img src="readme-img/plural.png" alt="Plural" width="150">
+Plural, Keziah Zoe
 
-Balofiños, Jane Pauline - GitHub @janepaulineb
-<img src="readme-img/" alt="balofinos" width="150">
+<a href="github.com/ravendotnet">
+  <img src="https://cdn.simpleicons.org/github/white" width="30"/>
+</a>
+
+<a href="mailto:202480119@psu.palawan.edu.ph">
+  <img src="https://cdn.simpleicons.org/gmail/white" width="30"/>
+</a>
+
+<img src="readme-img/plural.jpg" alt="Plural" width="150">
+
+Balofiños, Jane Pauline
+
+<a href="github.com/janepaulineb">
+  <img src="https://cdn.simpleicons.org/github/white" width="30"/>
+</a>
+
+<a href="mailto:202480122@psu.palawan.edu.ph">
+  <img src="https://cdn.simpleicons.org/gmail/white" width="30"/>
+</a>
+
+
+<img src="readme-img/balofinos.jpg" alt="balofinos" width="150">
