@@ -1,11 +1,19 @@
 /* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
+/*body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+}*/
+
+*,
+::before,
+::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #f8f2e0;
     color: #4c3c32;
 }
@@ -34,7 +42,9 @@ nav ul {
 
 nav a {
     text-decoration: none;
+    font-size: 20px;
     color: #4c3c32;
+
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -46,19 +56,22 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapers.com%2Fimages%2Fhd%2Fcozy-autumn-leaves-and-scarf-1jepr464e7apqjd1.jpg&f=1&nofb=1&ipt=db97808446f8fa4647cfaf2ad0942899757e18c6fc9eed59ea5dac2c4a6e8ec3');
     background-size: cover;
-    color: white;
+    color: #f8f8f8;
+
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 20px;
+    text-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
     font-size: 18px;
     margin-bottom: 40px;
+    text-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
 
 .cta-button {
@@ -77,6 +90,64 @@ nav a:hover {
 .menu {
     padding: 100px 0;
     text-align: center;
+    display: grid;
+
+        > h3 {
+            border-top: 1px solid rgb(83, 83, 83);
+            font-size: 0.90rem;
+            padding-top: 1rem;
+            width: 100%
+        }
+
+        > div {
+            display: grid;
+            padding-top: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            overflow: hidden;
+            justify-content: center;
+            gap: 1rem;
+
+            > .menu-item {
+                display: grid;
+                justify-content: center;
+                overflow: hidden;
+                border: 1px solid rgba(61 61 61 / 0.63);
+                cursor: pointer;
+
+                > * {
+                    grid-area: 1 / 1;
+                }
+
+                > img {
+                    object-fit: cover;
+                    aspect-ratio: 16 / 9;
+                    width: 100%;
+                    transition: scale 300ms;
+                }
+
+                > .menucontent {
+                    display: grid;
+                    place-content: end start;
+                    color: #ede4d6;
+                    font-size: 0.86rem;
+                    padding: 1rem;
+                    z-index: 1;
+                    transition: background-color 300ms ease-in-out;
+                }
+
+                &:hover {
+
+                    > img {
+                        scale: 1.1;
+                    }
+
+                    > .menucontent {
+                        background-color: rgba(0 0 0 / 0.5);
+                    }
+
+            }
+        }
+    }
 }
 
 .menu h2 {
